@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+    <item
+        android:id="@+id/yes"
+        android:icon="@drawable/yes"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="yes"/>
+    
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/n88"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:title="home"/>
+    
+    <item
+        android:id="@+id/no"
+        android:icon="@drawable/no"
+        android:orderInCategory="3"
+        android:showAsAction="always"
+        android:title="no"/>
+
+</menu>

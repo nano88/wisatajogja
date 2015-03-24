@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JsonLatihan</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_dealer_adapter">DealerAdapter</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">Detail</string>
+
+</resources>

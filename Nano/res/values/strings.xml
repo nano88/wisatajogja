@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nano</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_fb">Fb</string>
+    <string name="title_activity_twitter">Twitter</string>
+    <string name="title_activity_web">Web</string>
+    <string name="title_activity_contact">Contact</string>
+    <string name="title_activity_profiles">Profiles</string>
+    <string name="title_activity_gplay">Gplay</string>
+    <string name="title_activity_gplus">Gplus</string>
+
+</resources>

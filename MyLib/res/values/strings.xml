@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyLib</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_chec_k_box">Chec_kBox</string>
+    <string name="title_activity_rbutton">RButton</string>
+    <string name="title_activity_rating_bar">RButton</string>
+    <string name="title_activity_spinner">Spinner</string>
+
+    <string-array name="Habib">
+        <item>Ganteng</item>
+        <item>Baik Hati</item>
+        <item>Tidak Sombong</item>
+        <item>Rajin Menabung</item>
+        <item>Semua salah :v</item>
+    </string-array>
+
+    <string name="action_settings">Menu</string>
+    <string name="title_activity_widget_switch">WidgetSwitch</string>
+    <string name="title_activity_list__view">List_View</string>
+    <string name="title_activity_text__filed">Text_Filed</string>
+    <string name="title_activity_web__view">Web_View</string>
+    <string name="title_activity_scroll__viw">Scroll_Viw</string>
+    <string name="title_activity_action__bar">Action_Bar</string>
+    <string name="title_activity_progress__bar">Progress_Bar</string>
+    <string name="download_button">Download</string>
+    <string name="download_text">Press the button to download music</string>
+    <string name="title_activity_weather_list">WeatherList</string>
+
+</resources>

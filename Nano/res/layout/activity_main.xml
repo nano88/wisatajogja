@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    
+    <!-- Menambahkan header -->
+    <include layout="@layout/header" />
+    
+        <!-- Menambahkan footer -->
+    <include layout="@layout/footer" />
+       <!-- Slide gambar -->
+        <ImageView
+            android:id="@+id/ImageView3_Left"
+            android:layout_width="fill_parent"
+            android:layout_height="200sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+    
+    
+        <!-- Garis menu -->
+        <LinearLayout
+            android:id="@+id/menu"
+            android:layout_width="fill_parent"
+            android:layout_height="30sp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/ImageView3_Left"
+            android:background="#1E90FF"
+            android:orientation="vertical" >
+
+            <!-- text menu -->
+            <TextView
+                android:id="@+id/menuTv"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="Menu"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- layout tombol menu -->
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/menu">
+
+            <!-- Tombol menu kontak -->
+            <ImageView
+                android:id="@+id/contact"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_alignBottom="@+id/web"
+                android:layout_toRightOf="@+id/profile"
+                android:src="@drawable/kontak" />
+
+            <!-- Tombol menu profile -->
+            <ImageView
+                android:id="@+id/profile"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/home" />
+
+            <!-- TOmbol menu web -->
+            <ImageView
+                android:id="@+id/web"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="46dp"
+                android:layout_toLeftOf="@+id/profile"
+                android:src="@drawable/web" />
+
+        </RelativeLayout>
+    
+</RelativeLayout>
